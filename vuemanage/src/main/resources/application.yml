@@ -1,0 +1,29 @@
+
+
+server:
+  port: 9090
+#  servlet:
+#    context-path: /vuemanage
+
+#datasource
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///sys_student?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 1224731x
+
+
+#mybatis:
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml  #mapper 映射文件路径
+  type-aliases-package: com.example.vuemanage.domain  #别名
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.example.vuemanage.domain
+files:
+  upload:
+    path: G:\BaiduNetdiskDownload\Info_Student/files/
+#    path: /home/files/

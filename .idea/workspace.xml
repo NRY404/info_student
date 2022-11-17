@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d90157b2-e619-4e40-88f9-dc78e32c237f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/828d8a336a4a44aeaca5ad8ab8c0122d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Class.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Dorm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Grade.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/DormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/GradeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/Dorm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/mapper/ClassMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/mapper/DormMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/mapper/GradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/service/DormService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/service/GradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/resources/mapper/ClassMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/resources/mapper/DormMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/resources/mapper/GradeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuemanage/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/public/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/public/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/components/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/components/Aside.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/Echarts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Echarts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/File.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/File.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/UserView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/UserView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/VuemanageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/VuemanageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/EchartsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/EchartsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/controller/dto/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/dto/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/Files.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/Files.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/utils/TokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/utils/TokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vuemanage/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuemanage/随记.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sys_student@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sys_student@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sys_student@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sys_student: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sys_student@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sys_student: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="class: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sys_student@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sys_student: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="student: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Vue Single File Component" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28SYj6R93Y7Bn6npCgiRApUYjAU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/vuemanage/src/main/java/com/example/vuemanage/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vuemanage/src/main/resources/mapper" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\IntelliJ_IDEA\IntelliJ IDEA 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.vuemanage.mapper" />
+      <recent name="com.example.vuemanage.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\BaiduNetdiskDownload\Info_Student\vuemanage\src\main\resources\mapper" />
+      <recent name="G:\BaiduNetdiskDownload\Info_Student\vue\src\views" />
+      <recent name="G:\BaiduNetdiskDownload\Info_Student\vue\public" />
+      <recent name="G:\BaiduNetdiskDownload\Info_Student\vue\src\assets" />
+      <recent name="G:\BaiduNetdiskDownload\springboot_vue\vue\public" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.vuemanage.controller" />
+      <recent name="com.example.vuemanage.service" />
+      <recent name="com.example.vuemanage.mapper" />
+      <recent name="com.example.vuemanage.domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\BaiduNetdiskDownload\springboot_vue\vuemanage\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="vuemanage" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vuemanage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.vuemanage.VuemanageApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.serve" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="Spring Boot.vuemanage" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1349274" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d90157b2-e619-4e40-88f9-dc78e32c237f" name="Default Changelist" comment="" />
+      <created>1651211586646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651211586646</updated>
+      <workItem from="1651211589372" duration="17503000" />
+      <workItem from="1651235939775" duration="2087000" />
+      <workItem from="1651238824700" duration="1391000" />
+      <workItem from="1651240235428" duration="4234000" />
+      <workItem from="1651295506036" duration="5280000" />
+      <workItem from="1651301509997" duration="25209000" />
+      <workItem from="1651382700138" duration="25561000" />
+      <workItem from="1651492323578" duration="13114000" />
+      <workItem from="1651557602052" duration="26278000" />
+      <workItem from="1651640605183" duration="34606000" />
+      <workItem from="1651723086357" duration="36333000" />
+      <workItem from="1651844662038" duration="7477000" />
+      <workItem from="1651899495243" duration="14265000" />
+      <workItem from="1652150886694" duration="70000" />
+      <workItem from="1652187695270" duration="3616000" />
+      <workItem from="1652249253918" duration="2530000" />
+      <workItem from="1652337295239" duration="6165000" />
+      <workItem from="1652683756428" duration="60000" />
+      <workItem from="1653026978219" duration="7789000" />
+      <workItem from="1653273288442" duration="788000" />
+      <workItem from="1653297386155" duration="302000" />
+      <workItem from="1653297707051" duration="272000" />
+      <workItem from="1653299200159" duration="2796000" />
+      <workItem from="1653371081365" duration="1516000" />
+      <workItem from="1653380166578" duration="785000" />
+      <workItem from="1653460034359" duration="1104000" />
+      <workItem from="1653551375391" duration="10531000" />
+      <workItem from="1654049345889" duration="6294000" />
+      <workItem from="1654081412165" duration="17000" />
+      <workItem from="1654156414836" duration="758000" />
+      <workItem from="1654342048953" duration="626000" />
+      <workItem from="1654350642183" duration="7000" />
+      <workItem from="1658286814073" duration="13305000" />
+      <workItem from="1658361837029" duration="5094000" />
+      <workItem from="1658454585130" duration="617000" />
+      <workItem from="1658734716624" duration="68000" />
+      <workItem from="1658966516501" duration="4969000" />
+      <workItem from="1659063773920" duration="178000" />
+      <workItem from="1659073850373" duration="245000" />
+      <workItem from="1659319907227" duration="821000" />
+      <workItem from="1659334161283" duration="1306000" />
+      <workItem from="1663941280579" duration="339000" />
+      <workItem from="1663998114951" duration="5781000" />
+      <workItem from="1664005999297" duration="14016000" />
+      <workItem from="1664070855971" duration="39125000" />
+      <workItem from="1664159754223" duration="33891000" />
+      <workItem from="1664255951216" duration="1575000" />
+      <workItem from="1668327997228" duration="64000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/vue" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1380" y="383" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1658304610594">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1380" y="383" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1658304610594" />
+    <state x="552" y="198" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1664197164843">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1664197164843" />
+    <state x="1320" y="290" key="#com.intellij.ide.util.MemberChooser" timestamp="1664093647764">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1320" y="290" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1664093647764" />
+    <state x="921" y="250" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1658294168700">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="921" y="250" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1658294168700" />
+    <state x="487" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1664008101807">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="487" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1664008101807" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1663998935310">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1663998935310" />
+    <state x="748" y="284" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1664160643176">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="284" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1664160643176" />
+    <state x="1127" y="245" key="FileChooserDialogImpl" timestamp="1664260411513">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1127" y="245" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1664260411513" />
+    <state width="1200" height="341" key="GridCell.Tab.0.bottom" timestamp="1664209530753">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1200" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1664209530753" />
+    <state width="1200" height="341" key="GridCell.Tab.0.center" timestamp="1664209530753">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1200" height="341" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1664209530753" />
+    <state width="1200" height="341" key="GridCell.Tab.0.left" timestamp="1664209530753">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1200" height="341" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1664209530753" />
+    <state width="1200" height="341" key="GridCell.Tab.0.right" timestamp="1664209530753">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1200" height="341" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1664209530753" />
+    <state width="1598" height="314" key="GridCell.Tab.1.bottom" timestamp="1664209530751">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1598" height="314" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1664209530751" />
+    <state width="1598" height="314" key="GridCell.Tab.1.center" timestamp="1664209530751">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1598" height="314" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1664209530751" />
+    <state width="1598" height="314" key="GridCell.Tab.1.left" timestamp="1664209530751">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1598" height="314" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1664209530751" />
+    <state width="1598" height="314" key="GridCell.Tab.1.right" timestamp="1664209530751">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1598" height="314" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1664209530751" />
+    <state width="1598" height="293" key="GridCell.Tab.2.bottom" timestamp="1664092252421">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1598" height="293" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1664092252421" />
+    <state width="1598" height="293" key="GridCell.Tab.2.center" timestamp="1664092252421">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1598" height="293" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1664092252421" />
+    <state width="1598" height="293" key="GridCell.Tab.2.left" timestamp="1664092252421">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1598" height="293" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1664092252421" />
+    <state width="1598" height="293" key="GridCell.Tab.2.right" timestamp="1664092252421">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1598" height="293" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1664092252421" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1664005828170">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1664005828170" />
+    <state x="861" y="196" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1658302918583">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="861" y="196" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1658302918583" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1664166095772">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1664166095772" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1664181062503">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1664181062503" />
+  </component>
+</project>

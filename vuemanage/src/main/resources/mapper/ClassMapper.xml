@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.vuemanage.mapper.ClassMapper">
+    <insert id="addClass">
+        insert into class
+        <set>
+                classId=#{classId},
+                className=#{className},
+                speciality=#{speciality},
+            <if test="counsellor != null">
+                counsellor=#{counsellor},
+            </if>
+            <if test="phone != null">
+                phone=#{phone},
+            </if>
+            <if test="entranceYear != null">
+                entranceYear=#{entranceYear},
+            </if>
+        </set>
+    </insert>
+
+    <select id="findByPage3" resultType="com.example.vuemanage.domain.Class">
+        select classId,className,speciality,counsellor,entranceYear from class
+        <where>
+            <if test="className != null and className != '' ">
+                and className like #{className}
+            </if>
+        </where>
+        limit #{pageNum} , #{pageSize}
+    </select>
+    <select id="selectTotalByClassName" resultType="java.lang.Integer">
+        select count(className) as classNameNum from class
+        <where>
+            <if test="className != null and className != '' ">
+                and className like #{className}
+            </if>
+        </where>
+    </select>
+</mapper>

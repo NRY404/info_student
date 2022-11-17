@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.vuemanage.mapper.GradeMapper">
+
+    <select id="getGradeList" resultType="com.example.vuemanage.domain.Grade">
+        SELECT s.studentId,s.name,c.courseName,c.courseType,c.courseMark,g.grade
+        FROM (student s RIGHT JOIN grade g ON s.studentId=g.studentId)
+                 LEFT JOIN course c ON c.courseId=g.courseId
+    </select>
+
+
+    <select id="findByPage3" resultType="com.example.vuemanage.domain.Grade">
+        SELECT s.studentId,s.name,c.courseName,c.courseType,c.courseMark,g.grade
+        FROM (student s RIGHT JOIN grade g ON s.studentId=g.studentId)
+        LEFT JOIN course c ON c.courseId=g.courseId
+        <where>
+            <if test="studentId != null and studentId != ''">
+                and s.studentId like #{studentId}
+            </if>
+        </where>
+    </select>
+    <select id="findByPage" resultType="com.example.vuemanage.domain.Grade">
+        SELECT s.studentId,s.name,c.courseName,c.courseType,c.courseMark,g.grade
+        FROM (student s RIGHT JOIN grade g ON s.studentId=g.studentId)
+                 LEFT JOIN course c ON c.courseId=g.courseId limit #{pageNum} , #{pageSize}
+    </select>
+</mapper>

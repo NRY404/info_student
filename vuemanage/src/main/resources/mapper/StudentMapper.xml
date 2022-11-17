@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.vuemanage.mapper.StudentMapper">
+    <insert id="add">
+        insert into student
+        <set>
+            <if test="studentId != null">
+                studentId=#{studentId},
+            </if>
+            <if test="name != null">
+                name=#{name},
+            </if>
+            <if test="gender != null">
+                gender=#{gender},
+            </if>
+            <if test="birthday != null">
+                birthday=#{birthday},
+            </if>
+            <if test="email != null">
+                email=#{email},
+            </if>
+            <if test="phone != null">
+                phone=#{phone},
+            </if>
+            <if test="address != null">
+                address=#{address},
+            </if>
+            <if test="dormId != null">
+                dormId=#{dormId},
+            </if>
+            <if test="classId != null">
+                classId=#{classId},
+            </if>
+            <if test="avatar != null">
+                avatar=#{avatar}
+            </if>
+        </set>
+    </insert>
+    <update id="update">
+        update student
+            <set>
+                <if test="studentId != null">
+                    studentId=#{studentId},
+                </if>
+                <if test="name != null">
+                    name=#{name},
+                </if>
+                <if test="gender != null">
+                    gender=#{gender},
+                </if>
+                <if test="birthday != null">
+                    birthday=#{birthday},
+                </if>
+                <if test="email != null">
+                    email=#{email},
+                </if>
+                <if test="phone != null">
+                    phone=#{phone},
+                </if>
+                <if test="address != null">
+                    address=#{address},
+                </if>
+                <if test="dormId != null">
+                    dormId=#{dormId},
+                </if>
+                <if test="classId != null">
+                    classId=#{classId},
+                </if>
+                <if test="avatar != null">
+                    avatar=#{avatar}
+                </if>
+            </set>
+            <where>
+                studentId=#{studentId}
+            </where>
+    </update>
+
+    <!--  根据 用户名，邮箱，地址 模糊分页查询  -->
+
+    <select id="findByPage3" resultType="Student">
+        SELECT s.studentId,s.name,s.gender,s.birthday,s.address,s.phone,s.email,s.avatar,c.className,d.dormName
+        FROM student s,class c,dorm d
+        <where>
+            <if test="studentId != null and studentId != '' ">
+                and s.studentId like #{studentId}
+            </if>
+            <if test="name != null and name != '' ">
+                and s.name like #{name}
+            </if>
+            <if test="email != null and email != '' ">
+                and s.email like #{email}
+            </if>
+            and s.classId=c.classId and s.dormId=d.dormId
+        </where>
+
+        limit #{pageNum} , #{pageSize}
+
+    </select>
+    <select id="selectTotal3" resultType="java.lang.Integer">
+        select count(*) from student
+        <where>
+            <if test="studentId != null and studentId != '' ">
+                and studentId like #{studentId}
+            </if>
+            <if test="name != null and name != '' ">
+                and name like #{name}
+            </if>
+            <if test="email != null and email != '' ">
+                and email like #{email}
+            </if>
+        </where>
+    </select>
+    <select id="findByPage" resultType="com.example.vuemanage.domain.Student">
+        SELECT s.studentId,s.name,s.gender,s.birthday,s.address,s.phone,s.email,s.avatar,c.className,d.dormName
+        FROM student s,class c,dorm d
+        <where>
+            s.classId=c.classId and s.dormId=d.dormId
+        </where>
+         limit #{pageNum}, #{pageSize}
+    </select>
+    <select id="getStuList" resultType="com.example.vuemanage.domain.Student">
+        SELECT s.studentId,s.name,s.gender,s.birthday,s.address,s.phone,s.email,s.avatar,c.className,d.dormName
+        FROM student s,class c,dorm d
+        <where>
+            s.classId=c.classId and s.dormId=d.dormId
+        </where>
+    </select>
+
+    <delete id="deleteByIds">
+        delete from student where studentId in
+        <foreach collection="studentIds" item="studentId" separator="," open="(" close=")">
+            #{studentId}
+        </foreach>
+    </delete>
+
+<!--    查询一间宿舍现有几人-->
+
+</mapper>

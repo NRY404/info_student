@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.vuemanage.mapper.DormMapper">
+
+    <insert id="addDorm">
+        insert into dorm
+        <set>
+            dormId=#{dormId},
+            <if test="dormName != null">
+                dormName=#{dormName},
+            </if>
+            <if test="telephone != null">
+                telephone=#{telephone},
+            </if>
+        </set>
+    </insert>
+
+    <select id="findByPage3" resultType="com.example.vuemanage.domain.Dorm">
+        select dormId,dormName,telephone from dorm
+        <where>
+            <if test="dormName != null and dormName != '' ">
+                and dormName like #{dormName}
+            </if>
+        </where>
+        limit #{pageNum} , #{pageSize}
+    </select>
+    <select id="selectTotalByDormName" resultType="java.lang.Integer">
+        select count(*) from dorm
+        <where>
+            <if test="dormName != null and dormName != '' ">
+                and dormName like #{dormName}
+            </if>
+        </where>
+    </select>
+</mapper>
